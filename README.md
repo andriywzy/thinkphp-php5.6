@@ -18,7 +18,7 @@
   rsyslog
   superviosrd
   
-启动方式：
+# 启动方式：
   docker run -d -p 9000:9000 \
              -v (php-fpm.conf):/etc/php5/fpm/php-fpm.conf:ro \ 
              -v (php.ini):/etc/php5/fpm/php.ini:ro \
@@ -28,7 +28,7 @@
              -v (/data):/data
              andriywzy/thinkphp-php5.6
 
-如果不需要rsyslog：
+# 如果不需要rsyslog：
   docker run -d -p 9000:9000 -v .. andriywzy/thinkphp-php5.6 /usr/sbin/php5-fpm -F
   
 
