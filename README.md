@@ -23,7 +23,6 @@
              -v (php-fpm.conf):/etc/php5/fpm/php-fpm.conf:ro \ 
              -v (php.ini):/etc/php5/fpm/php.ini:ro \
              -v (www.conf):/etc/php5/fpm/pool.d/www.conf:ro \
-             -v (supervisord.conf):/etc/supervisor/supervisord.conf:ro \
              -v (rsyslog.conf):/etc/rsyslog.conf:ro \
              -v (/data):/data
              andriywzy/thinkphp-php5.6
