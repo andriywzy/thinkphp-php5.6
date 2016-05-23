@@ -15,7 +15,6 @@
   php5-readline
   php5-redis
   php-mongodb-1.1.6(for mongodb3.0)
-=======================================  
   rsyslog
   superviosrd
   
